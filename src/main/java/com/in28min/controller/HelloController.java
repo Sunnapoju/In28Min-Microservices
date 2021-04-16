@@ -18,6 +18,6 @@ public class HelloController {
 	
 	@GetMapping("/helloBean")
 	public HelloBean helloBean() {
-		return new HelloBean("Hello Bean");
+		return new HelloBean("Hello Bean Not Git Activated");
 	}
 }
